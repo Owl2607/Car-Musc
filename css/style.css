@@ -727,6 +727,10 @@ body {
   text-transform: uppercase;
 }
 
+.achivments__table-item-img {
+  margin-bottom: 1.375rem;
+}
+
 .achivments__table-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -744,10 +748,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 21px 35px 20px;
-}
-
-.achivments__table-item > img {
-  margin-bottom: 1.375rem;
 }
 
 .achivments__table-right {
