@@ -807,11 +807,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.cars__slide > img {
-  max-width: 100%;
-  position: relative;
+  /* >img {
+      max-width: 100%;
+      position: relative;
+  } */
 }
 
 .cars__slide-text-container {
@@ -875,6 +874,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.cars__slide-img {
+  max-width: 100%;
+  position: relative;
 }
 
 @supports (padding-bottom: clamp( 5rem , 2.9508196721rem  +  10.2459016393vw , 11.25rem )) {
@@ -966,11 +970,6 @@ body {
           flex: 1 1 auto;
 }
 
-.info-slider__slide > img {
-  width: 100%;
-  height: auto;
-}
-
 .info-slider__slide-text {
   font-weight: 600;
   font-size: 18px;
@@ -1002,6 +1001,10 @@ body {
   width: 70px;
   height: 70px;
   z-index: 3;
+}
+
+.info-slider__slide-img {
+  max-width: 100%;
 }
 
 @supports (padding-bottom: clamp( 5rem , 2.0034246575rem  +  11.4155251142vw , 11.25rem )) {
@@ -1203,6 +1206,11 @@ body {
   padding-bottom: 110px;
 }
 
+.benefits__slide-img {
+  width: 100%;
+  height: auto;
+}
+
 .benefits__slide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1210,11 +1218,10 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-}
-
-.benefits__slide > img {
-  width: 100%;
-  height: auto;
+  /*  >img {
+       width: 100%;
+       height: auto;
+   } */
 }
 
 .benefits__slide-text {
